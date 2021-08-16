@@ -5,7 +5,8 @@ import { useState } from "react";
 const movieDB = {
   Thriller: [
     { name: "The Dark Knight", rating: "9/10" },
-    { name: "Inception", rating: "8.8/10" }
+    { name: "Inception", rating: "8.8/10" },
+    { name: "Shutter Island", rating: "8.8/10" }
   ],
 
   SciFi: [
@@ -16,6 +17,10 @@ const movieDB = {
     {
       name: "Zack Snyder's Justice League",
       rating: "8.2/10"
+    },
+    {
+      name: "Interstellar",
+      rating: "9.2/10"
     }
   ],
   Bollywood: [
@@ -25,6 +30,10 @@ const movieDB = {
     },
     {
       name: "The World of Apu",
+      rating: "8.5/10"
+    },
+    {
+      name: "Mimi",
       rating: "8.5/10"
     }
   ]
